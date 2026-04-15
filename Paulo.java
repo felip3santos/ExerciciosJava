@@ -1,4 +1,5 @@
-//- QUESTÃO 01:
+//- QUESTÃO 01: CONTAGEM SIMPLES
+//Mostre os números de 1 até 10 usando for.
 
 package paulo;
 
@@ -12,7 +13,8 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 02:
+//- QUESTÃO 02: NÚMEROS PARES
+//Mostre os números pares de 1 até 50.
 
 package paulo;
 
@@ -26,7 +28,9 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 03:
+//- QUESTÃO 03: TABUADA
+//Mostre a tabuada de um número fixo (ex: 7).
+
 
 package paulo;
 
@@ -39,7 +43,8 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 04: 
+//- QUESTÃO 04: SOMA DE NÚMEROS
+//Some todos os números de 1 até 100 e mostre o //resultado.
 
 package paulo;
 
@@ -54,7 +59,8 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 05: 
+//- QUESTÃO 05: MAIOR NÚMERO
+//Crie duas variáveis e mostre qual é o maior usando //if.
 
 package paulo;
 import java.util.Scanner;
@@ -76,7 +82,11 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 06:
+//- QUESTÃO 06: CLASSIFICAÇÃO DE IDADE
+//Crie uma variável idade e classifique:
+//- 0 a 12 → Criança
+//- 13 a 17 → Adolescente
+//- 18 ou mais → Adulto
 
 package paulo;
 import java.util.Scanner;
@@ -101,7 +111,11 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 07: 
+//- QUESTÃO 07: MENU COM SWITCH
+//Crie um menu com opções:
+//1 - Cadastrar
+//2 - Listar
+//3 - Sair
 
 package paulo;
 import java.util.Scanner;
@@ -131,7 +145,8 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 08:
+//- QUESTÃO 08: CONTAGEM REGRESSIVA
+//Mostre os números de 10 até 1 usando for.
 
 package paulo;
 
@@ -146,7 +161,11 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 09:
+//- QUESTÃO 09: MÉDIA DE NOTAS
+//Crie duas notas, calcule a média e mostre:
+//- Média >= 70 → Aprovado
+//- Média >= 50 → Recuperação
+//- Média < 50 → Reprovado
 
 package paulo;
 import java.util.Scanner;
@@ -173,7 +192,15 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 10:
+//- QUESTÃO 10: SISTEMA COM REPETIÇÃO E MENU
+//Crie um sistema que repete até o usuário escolher //sair.
+
+Menu:
+1 - Mostrar "Olá"
+2 - Mostrar "Bem-vindo"
+0 - Sair
+
+Use while + switch.
 
 package paulo;
 import java.util.Scanner;
@@ -208,7 +235,8 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 11:      
+//- QUESTÃO 11: SOMA DE PARES
+//Mostre a soma de todos os números pares de 1 até //100.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 package paulo; 
                                                                                                                                                                                                                                                                         
@@ -223,7 +251,10 @@ public class Paulo {
     }
 } 
 
-//- QUESTÃO 12: 
+//- QUESTÃO 12: CONTADOR DE POSITIVOS E NEGATIVOS
+//Percorra os números de -10 até 10 e conte:
+//- Quantos são positivos
+//- Quantos são negativos
 
 package paulo;
 
@@ -245,7 +276,12 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 13: 
+//- QUESTÃO 13: TABUADAS COMPLETAS//Mostre todas as tabuadas de 1 até 5.
+
+//Exemplo:
+//1 x 1 = 1
+//...
+//5 x 10 = 50
 
 package paulo;
 
@@ -263,7 +299,12 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 14: 
+//- QUESTÃO 14: MÉDIA DE 5 NOTAS
+//Declare 5 notas, calcule a média e classifique:
+//- >= 70 → Aprovado
+//- >= 50 → Recuperação
+//- < 50 → Reprovado
+
 
 package paulo;
 import java.util.Scanner;
@@ -292,7 +333,16 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 15: 
+//- QUESTÃO 15: MENU COM REPETIÇÃO
+//Crie um sistema que repete até o usuário escolher //sair.
+
+//Menu:
+//1 - Mostrar números de 1 a 10
+//2 - Mostrar pares de 1 a 20
+//3 - Mostrar tabuada do 3
+//0 - Sair
+
+//Use while + switch.
 
 package paulo;
 import java.util.Scanner;
@@ -339,7 +389,10 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 16:
+//- QUESTÃO 16: FATORIAL
+//Calcule o fatorial de um número fixo.
+//Exemplo: 5! = 5 * 4 * 3 * 2 * 1
+
 
 package paulo;
 import java.util.Scanner;
@@ -359,7 +412,9 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 17: 
+//- QUESTÃO 17: CONTAGEM DE MÚLTIPLOS
+//Mostre quantos números entre 1 e 100 são múltiplos //de 3.
+
 
 package paulo;
 
@@ -376,7 +431,11 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 18:
+//- QUESTÃO 18: MAIOR E MENOR VALOR
+//Simule 5 valores e determine:
+//- O maior valor
+//- O menor valor
+
 
 package paulo;
 import java.util.Scanner;
@@ -413,7 +472,10 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 19:
+//- QUESTÃO 19: SOMA ATÉ PARAR
+//Use while para somar números até encontrar o número //0.
+//Ao final, mostre o total acumulado.
+
 
 package paulo;
 import java.util.Scanner;
@@ -439,7 +501,16 @@ public class Paulo {
     }
 }
 
-//- QUESTÃO 20:
+//- QUESTÃO 20: CALCULADORA
+//Crie um menu com switch:
+//1 - Somar dois números
+//2 - Subtrair
+//3 - Multiplicar
+//4 - Dividir
+//0 - Sair
+
+Use while para repetir o sistema.
+
 
 package paulo;
 import java.util.Scanner;
